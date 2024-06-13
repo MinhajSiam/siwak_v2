@@ -8,7 +8,7 @@
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="assets/css/styles.css">
 
-   <title>Landscape responsive card - Bedimcode</title>
+   <title>SIWAK Outlets</title>
 </head>
 
 <body>
@@ -211,6 +211,25 @@
          </article>
       </div>
    </div>
+
+
+
+
+
+   <!-- disable right click -->
+   <SCRIPT language=JavaScript>
+
+      var message = "function disabled";
+
+      function rtclickcheck(keyp) {
+         if (navigator.appName == "Netscape" && keyp.which == 3) { alert(message); return false; }
+
+         if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; }
+      }
+
+      document.onmousedown = rtclickcheck;
+
+   </SCRIPT>
 </body>
 
 </html>
